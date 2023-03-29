@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Connect data</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+       <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+       <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+       <script src="script.js"></script>
+       <link rel="stylesheet" href="style.css">
+  </head>
+    
+    <body>
+        <nav class="navbar navbar-fixed-top navbar-toggleable-md navbar-light navbar-inverse ">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="admin.html">ChatBot</a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+
+                <li><button type="submit" class=" btn btn-primary nav-link pull-sm-right m-r-0" id="logout">Logout</button></li>
+            </ul>
+        </div>
+      </nav><!-- all nav prop done -->
+    
+   
+        <div class="jumbotron">
+        <div class="container">
+            <div class="keep"></div>
+            <form action="add1.jsp" method="post">
+        <div class="form-group m-5">
+    <label for="exampleInputEmail1"><h2>Add Question</h2></label>
+    <input type="text" class="form-control" id="inputText" name="question" aria-describedby="emailHelp" placeholder="Here goes your question">
+     </div>
+        
+          
+        <div class="form-group m-5">
+    <label for="exampleTextarea"><h2>Add Answer</h2></label>
+    <textarea class="form-control" id="inputAnswer" name="answer" rows="3"></textarea>
+  </div>
+         <p class="lead text-center">
+    <button class="btn btn-primary" type="submit" id="database">ADD</button>
+  </p>
+        
+   </form>
+        </div>
+         </div>
+    
+           
+        
+        
+        
+        
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script> 
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
